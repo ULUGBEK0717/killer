@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <img src="./imgs/shimul.svg" alt="">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">Clients</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+                <button class="tugma">Contact</button>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <img class="komp" src="./imgs/komp.png" alt="">
+                <h1>I have lots of things to prove to <br>myself. One is I can live my life <br>fearlessly</h1>
+                <h3>Web Developer, Problem Solver, and a Hiker</h3>
+                <div class="info">
+                    <button class="btn">Learn More</button>
+                    <button class="btnn">Contact</button>
+                </div>
+            </div>   
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+               <div class="odamm">
+                <img id="odam" src="./imgs/odam.png" alt="">
+                <div class="box1">
+                    <h4>About Me</h4>
+                    <h1>Web Developer</h1>
+                    <p class="lorem">PHP, ASP, Ruby, Python, etc. Medium skill in database/ <br>server work, medium skill in JavaScript, light skill in HTML. </p>
+                    <p class="lorem">This is very different from a Front End Developer as there <br> is little working with the design and heavier on  <br>programming concepts and <br>8 concerns, like security and structure.</p>
+                </div>
+               </div>
+            </div>
+        </section>
+        <section class="orta">
+            <div class="container">
+                <h4 class="soz">More About Me</h4>
+                <h1 class="sozz">Development</h1>
+                <div class="box2">
+                    <div class="box3">
+                        <img class="box4" src="./imgs/Снимок экрана 2024-03-08 212327.png" alt="">
+                        <h2>Web Applications</h2>
+                        <p>PHP, ASP, Ruby, Python, etc. <br>Medium skill in database/server <br> work, medium skill in JavaScript, <br> light skill in HTML. </p>
+                    </div>
+                    <div class="box6">
+                        <img  src="./imgs/Снимок экрана 2024-03-08 212327.png" alt="">
+                        <h2>Desktop Applications</h2>
+                        <p>PHP, ASP, Ruby, Python, etc. <br>Medium skill in database/server <br>work, medium skill in JavaScript, <br>light skill in HTML. </p>
+                    </div>
+                    <div class="box7">
+                       <div class="box8">
+                        <img src="./imgs/Снимок экрана 2024-03-08 212327.png" alt="">
+                        <div class="box9">
+                            <span>Google - 2024</span>
+                            <h3>Mobile Applications</h3>
+                        </div>
+                       </div>
+                       <p>PHP, ASP, Ruby, Python, etc. <br> Medium skill in database/server <br> work, medium skill in JavaScript <br>, light skill in HTML. </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ohir">
+            <div class="container">
+                <h4>Just a ping Away</h4>
+                <h1>Contact</h1>
+                <div class="box17">
+                    <label for="1">Your name</label><br>
+                <input id="1" type="text" placeholder="Enter your name"><br>
+                <label for="1">Your Email</label><br>
+                <input id="1" type="text" placeholder="Enter your email"><br>
+                <label class="lp" for="1">Your Message`</label><br>
+               
+                <textarea class="pl" placeholder="Enter your email" ></textarea>
+                <button>Contact</button>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="onfoo">
+                <h4>Designed with </h4>
+                <img src="./imgs/Vector (1).svg" alt="">
+                <h4>by</h4>
+                <h4 class="kil">Joynal Abedin</h4>
+    
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    /* position: relative; */
+    color: white;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+li{
+    position: relative;
+}
+li a::after{
+    position: absolute;
+    content:"" ;
+    width: 0px;
+    height: 4px;
+    background-color: #00E472;
+    bottom: 0px;
+    left: 0px;
+    transition: all .4s ease;
+    border-radius: 2px;
+}
+li a:hover{
+    color: #00E472;
+}
+li a:hover::after{
+    width: 100%;
+}

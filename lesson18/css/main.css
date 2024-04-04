@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    background-color:#313536;
+    padding: 10px 0px;
+    font-family: "DM Sans", sans-serif;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.hero{
+    position: relative;
+    background-color: #252829;
+    overflow: hidden;
+}
+.hero .container{
+    padding: 80px 30px;
+    overflow: hidden;   
+    
+}
+.komp{
+    position: absolute;
+    width: 400px;
+    top: -50px;
+    right: 0px;
+}
+.hero h1{
+    font-family: "Rufina", serif;
+    margin-top:50px;
+    color: white;
+}
+.hero h3{
+    font-family: "DM Sans", sans-serif;
+    margin-top: 15px;
+    color: white;
+    font-weight: 100;
+}
+.btn{
+    border: 1px solid #00E472;
+    background-color:  #00E472 !important ;
+    width: 140px;
+    padding: 6px 1px;
+    border-radius: 17px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: transparent !important;
+}
+.btn:active{
+    border: 1px solid #00E472;
+    background-color: green !important ;
+    width: 135px;
+    padding: 4px 1px;
+    border-radius: 17px;
+    margin-top: 30px;
+    color: white;
+}
+.btnn{ 
+    border: 1px solid #00E472;
+    background-color: #00E472;
+    width: 140px;
+    padding: 6px 1px;
+    border-radius: 17px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btnn:hover{
+    background-color: transparent;
+}
+.btnn:active{
+    border: 1px solid #00E472;
+    background-color: transparent;
+    width: 135px;
+    padding: 4px 1px;
+    border-radius: 17px;
+    margin-top: 30px;
+    color: white;
+}
+main{
+
+}
+section {
+    background-color:  #313536;
+}
+section .container{
+    padding: 50px 2px;
+}
+.odamm{
+    display: flex;
+    width: 1100px;
+    gap: 70px;
+}
+#odam{
+    width: 400px;
+}
+.box1{
+    width: 500px;
+}
+
+.box1 h4{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "DM Sans", sans-serif;
+    color: #00E472;
+
+
+}
+.box1 h1{
+    font-family: "Rufina", serif;
+    margin-bottom: 30px;
+    color: white;
+    /* line-height: 20px; */
+    letter-spacing: 6px;
+}
+.lorem{
+    margin-bottom: 30px;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 200;
+     line-height: 22px;
+}
+
+.orta{
+    background-color: #252829;
+}
+
+.soz{
+    text-align: center;
+    color: #00E472;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 45px;
+}
+.sozz{
+    text-align: center;
+    font-family: "Rufina", serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+.box2{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.box3{
+    width: 310px;
+    height: 310px;
+    border: 1px solid#00E472;
+    text-align: center;
+    border-radius: 10px;
+}
+.box4{
+    /* margin-left: 10px; */
+    margin-top: 25px;
+    margin-bottom: 15px;
+ }
+ .box2 h2{
+    margin-bottom: 15px;
+    font-family: "Rufina", serif;
+    color: white;
+ }
+ .box2 p{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+ }
+ .box6{
+    width: 310px;
+    height: 310px;
+    border: 1px solid#00E472;
+    border-radius: 10px;
+ }
+ .box6 img{
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+ }
+ .box6 h2, p{
+    margin-left: 25px;
+    margin-bottom: 15px;
+ }
+ .box7{
+    width: 310px;
+    height: 310px;
+    border: 1px solid#00E472;
+    border-radius: 10px;
+ }
+ .box8{
+    margin-top: 55px;
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+ }
+ .box9 span{
+    color: #00E472;
+    margin-bottom: px;
+ }
+
+ .box9 h3{
+    margin-top: 15px; 
+    font-family: "Rufina", serif;
+    color: white;
+ }
+ .box7 p{
+    margin-top: 20px;
+ }
+ .ohir .container h4{
+    text-align: center;
+    color: #00E472;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 45px;
+ }
+ .ohir .container h1{
+    text-align: center;
+    font-family: "Rufina", serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 50px;
+ }
+
+ .ohir .container{
+    margin: 0 auto;
+ }
+
+ label{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 85px;
+    
+
+ }
+ input{
+    margin-top:15px;
+    width: 1000px;
+    padding: 15px 10px;
+    border: 2px solid #00E472;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    font-size: 25px;
+    /* margin: 40px auto; */
+    margin-bottom: 50px;
+    margin-left: 85px;
+ }
+ textarea{
+    margin-top:15px;
+    width: 1000px;
+    padding: 15px 10px;
+    border: 2px solid #00E472;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    font-size: 25px;
+    /* margin: 40px auto; */
+    margin-bottom: 50px;
+    margin-left: 85px;
+ }
+ .pl{
+    height: 280px;
+    text-align: left;
+
+ }
+ .box17{
+    margin: 0 auto;
+ }
+ .ohir .container button{
+    margin: 0 auto;
+    border: none;
+    font-size: 20px;
+    padding: 3px 15px;
+    border-radius: 8px;
+    background-color: #00E472;
+    color: white;
+    cursor: pointer;
+    margin-left: 525px;
+ }
+ .ohir .container button:hover{
+    background-color: rgb(7, 82, 7);
+ }
+ .ohir .container button:active{
+    padding: 2px 13px;
+ }
+ footer{
+    background-color: #252829;
+ }
+.onfoo{
+    display: flex;
+    gap: 15px;
+    font-family: "DM Sans", sans-serif;
+    margin: 0 auto;
+    justify-content: center;
+    color: white;
+}
+.kil{
+    color: #00E472;
+}
